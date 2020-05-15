@@ -31,5 +31,6 @@ jobs:
         cd ecr
         terraform -v
         terraform init
+        terraform import aws_ecr_repository.my_ecr byt-dev-ecr-01
         terraform fmt
         terraform plan
