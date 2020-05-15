@@ -26,3 +26,18 @@ jobs:
     - name: Run a one-line script
       run: terraform -v
 
+    # Runs a single command using the runners shell
+    - name: Run a one-line script
+      run: ls -l
+
+    # Runs a single command using the runners shell
+    - name: Run a one-line script
+      run: terraform init
+
+    # Runs a single command using the runners shell
+    - name: Run a one-line script
+      run: terraform fmt
+    # Runs a single command using the runners shell
+    - name: Run a one-line script
+      run: terraform plan
+
